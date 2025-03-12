@@ -149,10 +149,6 @@ Want to contribute? Follow these steps:
 4. **Push to your branch** and open a **Pull Request**  
 
 ---
-
-## **📜 License**  
-This project is **open-source** under the [MIT License](LICENSE).  
-
 ---
 
 ## **📞 Contact & Acknowledgments**  
