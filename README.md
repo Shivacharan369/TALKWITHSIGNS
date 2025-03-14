@@ -23,8 +23,7 @@
 | **Frontend**  | React.js, HTML, CSS, JavaScript |
 | **Backend**   | Flask, Express.js, Node.js |
 | **Machine Learning** | TensorFlow, MediaPipe, OpenCV |
-| **Deployment** | Docker, AWS EC2, GitHub Actions |
-| **Database**  | Firebase / MongoDB (if applicable) |
+
 
 ---
 
