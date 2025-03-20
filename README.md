@@ -151,7 +151,10 @@ Want to contribute? Follow these steps:
 ---
 
 ## **📞 Contact & Acknowledgments**  
-👤 **Developed by:** Shivacharan  
+👤 **Developed by:
+                  1)Shivacharan 
+                  2)Hema prakash reddy
+                  3)Aroosh reddy
 📧 **Email:** shivacharan.deshetti@gmail.com 
 🌐 **Project URL:** [GitHub Repository](https://github.com/shivachara369/TALKWITHSIGNS)  
 
