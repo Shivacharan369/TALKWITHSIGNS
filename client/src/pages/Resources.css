@@ -1,0 +1,207 @@
+.resources-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+/* Hero Section */
+.hero {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  gap: 10px;
+  padding: 20px 20px;
+}
+
+.hero-left h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  font-family: "Garamond", serif;
+  margin-bottom: 15px;
+  margin-left: auto;
+  color: #000000;
+}
+
+.hero-left p {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  color: black;
+  margin-left: auto;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 10px;
+}
+
+.grid-item {
+  background: #5a189a;
+  color: #fff;
+  text-align: center;
+  padding: 15px;
+  border-radius: 8px;
+  transition: 0.3s;
+  font-size: 1.2rem;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.grid-item:hover {
+  background: #9d4edd;
+  transform: scale(1.05);
+}
+
+/* General Section Styling */
+.section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  gap: 40px;
+  padding: 30px 20px;
+}
+
+.section h2 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  font-family: "Garamond", serif;
+  margin-bottom: 15px;
+  color: #5a189a;
+}
+
+.section p {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  color: #444;
+}
+
+.section-right {
+  height: 300px;
+  border-radius: 12px;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+/* Button Styling */
+.connect-btn {
+  padding: 12px 24px;
+  font-size: 1.2rem;
+  border: none;
+  background: rgba(255, 255, 255, 0.8);
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: all 0.3s ease-in-out;
+}
+
+.connect-btn:hover {
+  background: #5a189a;
+  color: #fff;
+  transform: scale(1.05);
+}
+
+/* Interactive Module Background */
+.interactive-module .section-right {
+  background-image: url("https://s7d1.scene7.com/is/image/dmqualcommprod/getting-personal-with-on-device-ai?$QC_Responsive$&fmt=png-alpha&wid=500");
+}
+
+/* Button Positioned on Background */
+.interactive-module .section-right .connect-btn {
+  position: absolute;
+  bottom: 20px;
+  background: rgba(255, 255, 255, 0.9);
+  padding: 15px 20px;
+  font-size: 1.2rem;
+  border-radius: 8px;
+  font-weight: bold;
+  transition: 0.3s ease-in-out;
+}
+
+.interactive-module .section-right .connect-btn:hover {
+  background: #5a189a;
+  color: #fff;
+}
+
+/* Modal (Popup) Styles */
+.video-modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+/* Modal Content */
+.video-content {
+  background: white;
+  padding: 20px;
+  border-radius: 15px;
+  text-align: center;
+  position: relative;
+  max-width: 700px;
+  width: 90%;
+  box-shadow: 0px 4px 15px rgba(255, 255, 255, 0.2);
+  animation: fadeIn 0.3s ease-in-out;
+}
+
+/* Close Button */
+.close-btn {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  font-size: 24px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+  color: #5a189a;
+}
+
+/* Video Box */
+.video-box {
+  border: 3px solid #5a189a;
+  border-radius: 12px;
+  padding: 10px;
+  background: #f4f4f4;
+  margin-top: 15px;
+}
+
+/* Video Stream */
+.video-stream {
+  width: 100%;
+  max-width: 650px;
+  height: auto;
+  border-radius: 10px;
+}
+
+/* ISL Resources Background */
+.isl-resources .section-right {
+  background-image: url("https://www.livelaw.in/h-upload/2019/07/09/362025-isl.jpg");
+}
+
+/* Join Community Background */
+.join-community .section-right {
+  background-image: url("https://media.istockphoto.com/id/1472932742/photo/group-of-multigenerational-people-hugging-each-others-support-multiracial-and-diversity.jpg?s=612x612&w=0&k=20&c=Zm1MthU_G_LzfjBFBaMORRnuBhMsCjPQ38Ksfg4zl9g=");
+}
+
+/* Smooth Fade-in Animation */
+@keyframes fadeIn {
+  from {
+      opacity: 0;
+      transform: scale(0.9);
+  }
+  to {
+      opacity: 1;
+      transform: scale(1);
+  }
+}

@@ -1,0 +1,41 @@
+footer {
+    background: #222;
+    color: white;
+    text-align: center;
+    padding: 40px;
+  }
+  
+  footer form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+  }
+  
+  footer form input,
+  footer form textarea {
+    width: 45%;
+    padding: 10px;
+  }
+  
+  footer form textarea {
+    width: 90%;
+    height: 100px;
+  }
+  
+  footer button {
+    background: #6C5CE7;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  footer button:hover {
+    background: #4834d4;
+  }
+  
+  footer p {
+    margin-top: 20px;
+  }
+  
